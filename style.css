@@ -410,6 +410,47 @@ body[data-category=acessorios] .category-hero::after{background-image:var(--f-pi
 .subtotal strong{font:700 24px var(--serif)}
 .toast{background:var(--ink);border:2px solid var(--yellow);border-radius:10px;font-weight:600}
 
+
+/* ---------- Espaço de respiro (desktop) ---------- */
+@media(min-width:761px){
+ .section-heading{margin-bottom:64px}
+ .category-grid{gap:28px}
+ .catalog-layout{gap:48px}
+ .products-grid{gap:32px}
+ .product-info{padding:22px}
+ .values-grid,.testimonial-grid{gap:32px}
+ .story-image{margin:48px}
+ .category-shop{padding-top:96px}
+}
+@media(max-width:1100px){.filters{position:static}}
+
+/* ---------- Mobile ---------- */
+@media(max-width:760px){
+ .logo-mark{width:24px;height:24px}
+ .hero-slide:nth-child(3):after{background:linear-gradient(180deg,rgba(75,29,158,.98),rgba(75,29,158,.92) 48%,rgba(75,29,158,.08))}
+ .hero-sticker{font-size:19px}
+ .doodle-flower{width:52px;height:52px}
+ .section-heading p{font-size:15px}
+ .category-grid{gap:14px}
+ .catalog-layout{gap:24px}
+ .products-grid{gap:18px}
+ .category-shop{padding-top:56px}
+ .story-section::before{width:200px;height:200px}
+ .newsletter-section::before{width:56px;height:56px;right:20px;top:-24px}
+ .category-hero{padding:24px 7% 64px}
+ .breadcrumb{margin-bottom:44px;font-size:12px}
+ .category-hero p{font-size:22px}
+ .category-hero::after{width:76px;height:76px}
+ .detail-image{border-radius:22px 60px 22px 60px;box-shadow:6px 6px 0 var(--yellow)}
+ .product-info p{font-size:12px}
+}
+@media(max-width:420px){
+ .hero-sticker{font-size:15px}
+ .category-card>span{font-size:17px}
+ .category-card b{padding:5px 10px;font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){.logo:hover .logo-mark{rotate:0deg}}
+
 /* LOGO PENNY BLOOM */
 .site-header .logo {
   display: flex;
@@ -453,42 +494,3 @@ body[data-category=acessorios] .category-hero::after{background-image:var(--f-pi
   color: inherit;
 }
 
-/* ---------- Espaço de respiro (desktop) ---------- */
-@media(min-width:761px){
- .section-heading{margin-bottom:64px}
- .category-grid{gap:28px}
- .catalog-layout{gap:48px}
- .products-grid{gap:32px}
- .product-info{padding:22px}
- .values-grid,.testimonial-grid{gap:32px}
- .story-image{margin:48px}
- .category-shop{padding-top:96px}
-}
-@media(max-width:1100px){.filters{position:static}}
-
-/* ---------- Mobile ---------- */
-@media(max-width:760px){
- .logo-mark{width:24px;height:24px}
- .hero-slide:nth-child(3):after{background:linear-gradient(180deg,rgba(75,29,158,.98),rgba(75,29,158,.92) 48%,rgba(75,29,158,.08))}
- .hero-sticker{font-size:19px}
- .doodle-flower{width:52px;height:52px}
- .section-heading p{font-size:15px}
- .category-grid{gap:14px}
- .catalog-layout{gap:24px}
- .products-grid{gap:18px}
- .category-shop{padding-top:56px}
- .story-section::before{width:200px;height:200px}
- .newsletter-section::before{width:56px;height:56px;right:20px;top:-24px}
- .category-hero{padding:24px 7% 64px}
- .breadcrumb{margin-bottom:44px;font-size:12px}
- .category-hero p{font-size:22px}
- .category-hero::after{width:76px;height:76px}
- .detail-image{border-radius:22px 60px 22px 60px;box-shadow:6px 6px 0 var(--yellow)}
- .product-info p{font-size:12px}
-}
-@media(max-width:420px){
- .hero-sticker{font-size:15px}
- .category-card>span{font-size:17px}
- .category-card b{padding:5px 10px;font-size:10px}
-}
-@media(prefers-reduced-motion:reduce){.logo:hover .logo-mark{rotate:0deg}}
