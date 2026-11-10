@@ -2,11 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700;800&family=Caveat+Brush&display=swap");
 
-500;600;700&family=DM+Sans:wght@400;500;600;700;800&display=swap"[bad string]
-
-500;600;700&display=swap"[bad string]
-
-500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"[bad string]
 
 :root {
   --cream: #f8f6ef;
@@ -3155,6 +3150,111 @@ body { overflow-x: clip; }
   .product-card:after {
     transform: none !important;
     transition: none !important;
+  }
+}
+
+/* =========================================
+   PENNY BLOOM — BANNERS GRÁFICOS DE CATEGORIA
+========================================= */
+
+.category-hero {
+  min-height: 330px;
+  padding: 65px 8%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--ink);
+  border-bottom: 3px solid var(--ink);
+  background: var(--purple);
+}
+
+/* Elementos decorativos */
+.category-hero::before {
+  content: "✿";
+  position: absolute;
+  z-index: -1;
+  right: 8%;
+  top: -65px;
+  font-size: 310px;
+  line-height: 1;
+  color: rgba(255,255,255,.18);
+  transform: rotate(-18deg);
+}
+
+.category-hero::after {
+  content: "✳  ♡  ✿";
+  position: absolute;
+  z-index: -1;
+  right: 12%;
+  bottom: 25px;
+  font-size: clamp(35px, 5vw, 65px);
+  color: var(--yellow);
+  transform: rotate(-10deg);
+  letter-spacing: 12px;
+}
+
+/* Conteúdo */
+.category-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.category-hero h1 {
+  max-width: 750px;
+  font-family: "Fredoka", sans-serif;
+  font-size: clamp(42px, 6vw, 76px);
+  line-height: 1.05;
+  font-weight: 700;
+  color: white;
+}
+
+.category-hero p {
+  max-width: 480px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: white;
+}
+
+/* Lábios */
+body[data-category="labios"] .category-hero {
+  background: linear-gradient(120deg, #ff3f91, #d52d83);
+}
+
+/* Rosto */
+body[data-category="rosto"] .category-hero {
+  background: linear-gradient(120deg, #ffdb38, #ffad42);
+}
+
+/* Olhos */
+body[data-category="olhos"] .category-hero {
+  background: linear-gradient(120deg, #7738df, #4520a0);
+}
+
+/* Acessórios */
+body[data-category="acessorios"] .category-hero {
+  background: linear-gradient(120deg, #24b8e8, #188caa);
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  .category-hero {
+    min-height: 270px;
+    padding: 55px 7%;
+  }
+
+  .category-hero::before {
+    right: -45px;
+    top: -25px;
+    font-size: 210px;
+  }
+
+  .category-hero::after {
+    right: 5%;
+    bottom: 12px;
+    font-size: 32px;
   }
 }
 
