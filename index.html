@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f6ef">
+  <meta name="description" content="PENNY BLOOM — maquiagem, cor e personalidade.">
+  <title>PENNY BLOOM | Uma corzinha nunca é demais!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <div class="announcement">Uma corzinha nunca é demais! <span>✿</span></div>
+  <header class="site-header">
+    <div class="nav-container">
+      <button class="icon-button mobile-toggle" id="mobile-toggle" aria-label="Abrir menu" aria-expanded="false"><i class="bx bx-menu"></i></button>
+      <a class="logo" href="index.html" aria-label="Penny Bloom — início"><span class="logo-mark" aria-hidden="true">✿</span><span class="logo-word"><span class="logo-line">Penny</span><span class="logo-line">Bloom</span></span></a>
+      <nav class="main-nav" id="nav-menu" aria-label="Navegação principal">
+        <a class="active" href="index.html">Início</a>
+        <a href="rosto.html">Rosto</a>
+        <a href="labios.html">Lábios</a>
+        <a href="olhos.html">Olhos</a>
+        <a href="acessorios.html">Acessórios</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-button" id="search-toggle" aria-label="Abrir busca"><i class="bx bx-search"></i></button>
+        <button class="icon-button cart-trigger" data-open-cart aria-label="Abrir carrinho"><i class="bx bx-shopping-bag"></i><span class="cart-count" id="cart-count">0</span></button>
+      </div>
+    </div>
+    <form class="search-bar" id="search-form" role="search">
+      <input id="search-input" type="search" placeholder="O que você está procurando?" aria-label="Buscar produtos">
+      <button type="submit">Buscar</button>
+    </form>
+  </header>
+
+  <main>
+    <section class="hero hero-slider" aria-label="Destaques PENNY BLOOM">
+      <div class="hero-slide is-active"><div class="hero-slide-image" style="background-image:url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2200&q=90')"></div><div class="hero-content"><span class="eyebrow">PENNY BLOOM APRESENTA</span><h1>Uma corzinha<br><em>nunca é demais!</em></h1><p>Seu nécessaire, suas regras. Descubra cores, texturas e pequenos motivos para se divertir com a maquiagem.</p><a class="button button-light" href="#colecao">Quero descobrir <i class="bx bx-right-arrow-alt"></i></a></div><span class="hero-sticker sticker-one">mais cor,<br>por favor!</span></div>
+      <div class="hero-slide"><div class="hero-slide-image" style="background-image:url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=2200&q=90')"></div><div class="hero-content"><span class="eyebrow">SEU JEITO DE BRILHAR</span><h1>Não tenha medo<br><em>de se colorir.</em></h1><p>Do básico ao nada básico: encontre seus novos favoritos e experimente sem pedir licença.</p><a class="button button-light" href="olhos.html">Explore as cores <i class="bx bx-right-arrow-alt"></i></a></div><span class="hero-sticker sticker-two">coragem<br>no pincel!</span></div>
+      <div class="hero-slide"><div class="hero-slide-image" style="background-image:url('https://images.unsplash.com/photo-1583241800698-e8ab01830a07?auto=format&fit=crop&w=2200&q=90')"></div><div class="hero-content"><span class="eyebrow">BE BOLD. BE BLOOMING.</span><h1>Seu rosto é<br><em>sua tela.</em></h1><p>Um toque de brilho, uma mistura inesperada e uma versão sua que muda quando quiser.</p><a class="button button-light" href="rosto.html">Encontre seu favorito <i class="bx bx-right-arrow-alt"></i></a></div><span class="hero-sticker sticker-three">feito pra<br>brincar ♡</span></div>
+      <div class="hero-controls"><button class="hero-arrow hero-prev" aria-label="Slide anterior"><i class="bx bx-chevron-left"></i></button><div class="hero-dots"><button class="is-active" data-go-slide="0" aria-label="Destaque 1"></button><button data-go-slide="1" aria-label="Destaque 2"></button><button data-go-slide="2" aria-label="Destaque 3"></button></div><button class="hero-arrow hero-next" aria-label="Próximo slide"><i class="bx bx-chevron-right"></i></button></div>
+      <span class="hero-note">BE BOLD. BE BLOOMING.</span><span class="doodle doodle-flower">✿</span><span class="doodle doodle-spark">✳</span>
+    </section>
+
+    <section class="intro-strip">
+      <p>Cor sem pedir licença.</p>
+      <span>✿</span>
+      <p>Misture. Teste. Invente.</p>
+      <span>✿</span>
+      <p>Seu jeito, em todas as cores.</p>
+    </section>
+
+    <section class="section categories-section">
+      <div class="section-heading">
+        <span class="eyebrow">ESCOLHA SUA PRÓXIMA COR</span>
+        <h2>Um universo de possibilidades</h2>
+        <p>Cores, texturas e favoritos para inventar seu próprio jeito de se expressar.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card category-face" href="rosto.html"><span>01 / PELE</span><h3>Rosto</h3><b>Descobrir <i class="bx bx-right-arrow-alt"></i></b></a>
+        <a class="category-card category-lips" href="labios.html"><span>02 / COR</span><h3>Lábios</h3><b>Descobrir <i class="bx bx-right-arrow-alt"></i></b></a>
+        <a class="category-card category-eyes" href="olhos.html"><span>03 / OLHAR</span><h3>Olhos</h3><b>Descobrir <i class="bx bx-right-arrow-alt"></i></b></a>
+        <a class="category-card category-tools" href="acessorios.html"><span>04 / DETALHES</span><h3>Acessórios</h3><b>Descobrir <i class="bx bx-right-arrow-alt"></i></b></a>
+      </div>
+    </section>
+
+    <section class="section shop-section" id="colecao">
+      <div class="section-heading section-heading-row">
+        <div><span class="eyebrow">OS QUERIDINHOS DA VEZ</span><h2>Favoritos para se apaixonar</h2><p>Uma seleção cheia de cor e personalidade.</p></div>
+        <a class="text-link" href="rosto.html">Ver categorias <i class="bx bx-right-arrow-alt"></i></a>
+      </div>
+      <div class="catalog-toolbar">
+        <label class="catalog-search"><i class="bx bx-search"></i><input type="search" id="catalog-search" placeholder="Buscar na coleção..." aria-label="Buscar na coleção"></label>
+        <select id="sort-select" aria-label="Ordenar produtos">
+          <option value="featured">Em destaque</option><option value="newest">Mais recentes</option><option value="price-asc">Menor preço</option><option value="price-desc">Maior preço</option><option value="name">Nome A–Z</option>
+        </select>
+      </div>
+      <div class="catalog-layout">
+        <aside class="filters">
+          <div class="filter-heading"><h3>Refinar busca</h3><button id="clear-filters" class="clear-button">Limpar</button></div>
+          <div class="filter-group"><h4>Categorias</h4>
+            <label><input type="checkbox" name="category" value="rosto"> Rosto</label>
+            <label><input type="checkbox" name="category" value="labios"> Lábios</label>
+            <label><input type="checkbox" name="category" value="olhos"> Olhos</label>
+            <label><input type="checkbox" name="category" value="acessorios"> Acessórios</label>
+          </div>
+          <div class="filter-group"><h4>Faixa de preço</h4>
+            <label><input type="checkbox" name="price" value="0-50"> Até R$ 50</label>
+            <label><input type="checkbox" name="price" value="50-150"> R$ 50 a R$ 150</label>
+            <label><input type="checkbox" name="price" value="150-9999"> Acima de R$ 150</label>
+          </div>
+        </aside>
+        <div class="products-area">
+          <div class="results-line"><span id="results-count" aria-live="polite"></span><span>Valores em reais (R$)</span></div>
+          <div class="products-grid" id="products-grid"></div>
+          <div class="empty-state" id="empty-state" hidden><i class="bx bx-leaf"></i><h3>Nenhum encanto por aqui...</h3><p>Tente ajustar os filtros ou buscar por outro termo.</p><button class="button button-outline" id="reset-empty">Limpar filtros</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section">
+      <div class="story-image"></div>
+      <div class="story-copy"><span class="eyebrow">NOSSA ESSÊNCIA</span><h2>Maquiagem é sobre brincar de ser você.</h2><p>A PENNY BLOOM nasceu para quem vê a maquiagem como diversão, expressão e um convite para experimentar. Aqui, não existe regra para combinar cores — só vontade de brincar.</p><p>Reunimos produtos para você experimentar, misturar e criar combinações que tenham a sua cara. Porque uma corzinha nunca é demais!</p><a class="text-link" href="#newsletter">Vem florescer com a gente <i class="bx bx-right-arrow-alt"></i></a></div>
+    </section>
+
+    <section class="section values-section">
+      <div class="section-heading"><span class="eyebrow">DO NOSSO JEITO</span><h2>Beleza do seu jeito</h2></div>
+      <div class="values-grid">
+        <article><i class="bx bx-leaf"></i><h3>Liberdade para criar</h3><p>Cores e texturas para experimentar sem medo.</p></article>
+        <article><i class="bx bx-heart"></i><h3>Escolhas com personalidade</h3><p>Favoritos para acompanhar todas as suas versões.</p></article>
+        <article><i class="bx bx-gift"></i><h3>Diversão em cada detalhe</h3><p>Porque se arrumar também pode ser uma brincadeira.</p></article>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="section-heading"><span class="eyebrow">QUEM JÁ SE JOGOU</span><h2>Amor à primeira cor</h2><p>O que as pessoas dizem sobre a PENNY BLOOM.</p></div>
+      <div class="testimonial-grid">
+        <blockquote><div class="stars">★★★★★</div><p>“Amei o cuidado em cada detalhe. Parece que escolhi um presente para mim mesma.”</p><cite>— Marina, cliente</cite></blockquote>
+        <blockquote><div class="stars">★★★★★</div><p>“Tudo tem uma delicadeza especial. Já estou de olho na próxima coleção!”</p><cite>— Elisa, cliente</cite></blockquote>
+        <blockquote><div class="stars">★★★★★</div><p>“Uma experiência tão acolhedora quanto os produtos. Virei fã da loja.”</p><cite>— Clara, cliente</cite></blockquote>
+      </div>
+      <p class="demo-note">* Depoimentos demonstrativos para personalização do template.</p>
+    </section>
+
+    <section class="newsletter-section" id="newsletter">
+      <div><span class="eyebrow">BILHETINHOS COLORIDOS</span><h2>Uma dose de cor na sua caixa de entrada.</h2><p>Novidades, lançamentos e inspirações para deixar a criatividade solta.</p></div>
+      <form id="newsletter-form" class="newsletter-form"><label class="sr-only" for="newsletter-email">Seu e-mail</label><input type="email" id="newsletter-email" placeholder="Seu melhor e-mail" required><button type="submit">Quero receber <i class="bx bx-right-arrow-alt"></i></button><small id="newsletter-message" aria-live="polite">Ao se cadastrar, você concorda em receber novidades da loja.</small></form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main"><div class="footer-brand"><a class="logo" href="index.html" aria-label="Penny Bloom — início"><span class="logo-mark" aria-hidden="true">✿</span><span class="logo-word"><span class="logo-line">Penny</span><span class="logo-line">Bloom</span></span></a><p>Uma corzinha nunca é demais!</p><div class="social-links"><a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a><a href="#" aria-label="Pinterest"><i class="bx bxl-pinterest"></i></a><a href="#" aria-label="E-mail"><i class="bx bx-envelope"></i></a></div></div>
+      <div><h3>Explore</h3><a href="rosto.html">Rosto</a><a href="labios.html">Lábios</a><a href="olhos.html">Olhos</a><a href="acessorios.html">Acessórios</a></div>
+      <div><h3>Atendimento</h3><a href="#newsletter">Fale com a gente</a><a href="#">Envios e entregas</a><a href="#">Trocas e devoluções</a><a href="#">Privacidade</a></div>
+      <div><h3>Um lembrete</h3><p>Sua beleza, suas regras. Sua cor, sua história.</p><span class="footer-flower">✿</span></div>
+    </div><div class="footer-bottom"><span>© <span id="current-year"></span> PENNY BLOOM. Todos os direitos reservados.</span><span>Feito com <i class="bx bxs-heart"></i> e muita cor.</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="drawer-backdrop" id="cart-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrinho de compras" aria-hidden="true">
+    <div class="drawer-header"><div><span class="eyebrow">SUAS ESCOLHAS</span><h2>Meu carrinho</h2></div><button class="icon-button" id="close-cart" aria-label="Fechar carrinho"><i class="bx bx-x"></i></button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty" id="cart-empty"><i class="bx bx-shopping-bag"></i><h3>Seu carrinho está vazio</h3><p>Que tal colocar um pouco de cor por aqui?</p><button class="button button-outline" id="continue-shopping">Continuar explorando</button></div>
+    <div class="drawer-footer" id="drawer-footer"><div class="subtotal"><span>Subtotal</span><strong id="cart-total">R$ 0,00</strong></div><p>Frete e condições de pagamento são definidos na etapa de compra.</p><button class="button button-primary checkout-demo" id="checkout-button">Continuar <i class="bx bx-right-arrow-alt"></i></button><small>Checkout demonstrativo — configure seu meio de pagamento antes de publicar a loja.</small></div>
+  </aside>
+  <script src="app.js"></script>
+</body>
+</html>
