@@ -223,7 +223,50 @@ img {
   color: white;
   padding: 0 22px;
 }
+/* Banners das páginas de categoria */
+.category-hero {
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  padding: 60px 8%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
 
+.category-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(41, 21, 47, .88),
+    rgba(41, 21, 47, .15)
+  );
+}
+
+.category-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Imagens por categoria */
+body[data-category="labios"] .category-hero {
+  background-image: url("images/banner-labios.jpg");
+}
+
+body[data-category="rosto"] .category-hero {
+  background-image: url("images/banner-rosto.jpg");
+}
+
+body[data-category="olhos"] .category-hero {
+  background-image: url("images/banner-olhos.jpg");
+}
+
+body[data-category="acessorios"] .category-hero {
+  background-image: url("images/banner-acessorios.jpg");
+}
 .hero {
   height: min(690px,78vh);
   min-height: 530px;
@@ -239,6 +282,7 @@ img {
   inset: 0;
   background: linear-gradient(90deg,rgba(26,39,29,.66),rgba(26,39,29,.08)),url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2200&q=90") center 48%/cover;
 }
+
 
 .hero-content {
   position: relative;
