@@ -3153,12 +3153,13 @@ body { overflow-x: clip; }
   }
 }
 
+
 /* =========================================
    PENNY BLOOM — BANNERS GRÁFICOS DE CATEGORIA
 ========================================= */
 
 .category-hero {
-  min-height: 330px;
+  min-height: 320px;
   padding: 65px 8%;
   display: flex;
   align-items: center;
@@ -3167,8 +3168,9 @@ body { overflow-x: clip; }
   overflow: hidden;
   isolation: isolate;
   color: var(--ink);
-  border-bottom: 3px solid var(--ink);
-  background: var(--purple);
+  border: none;
+  border-radius: 0;
+  background: #fff6e8;
 }
 
 /* Elementos decorativos */
@@ -3176,11 +3178,11 @@ body { overflow-x: clip; }
   content: "✿";
   position: absolute;
   z-index: -1;
-  right: 8%;
-  top: -65px;
-  font-size: 310px;
+  right: 9%;
+  top: -75px;
+  font-size: 330px;
   line-height: 1;
-  color: rgba(255,255,255,.18);
+  color: rgba(119, 56, 223, .12);
   transform: rotate(-18deg);
 }
 
@@ -3188,10 +3190,10 @@ body { overflow-x: clip; }
   content: "✦  ♡  ✿";
   position: absolute;
   z-index: -1;
-  right: 12%;
+  right: 13%;
   bottom: 25px;
   font-size: clamp(35px, 5vw, 65px);
-  color: var(--yellow);
+  color: #ff3f91;
   transform: rotate(-10deg);
   letter-spacing: 12px;
 }
@@ -3204,38 +3206,54 @@ body { overflow-x: clip; }
 
 .category-hero h1 {
   max-width: 750px;
-  font-family: "Coiny", sans-serif;
+  font-family: "Dangrek", sans-serif;
   font-size: clamp(42px, 6vw, 76px);
   line-height: 1.05;
   font-weight: 700;
-  color: white;
+  color: #29152f;
 }
 
 .category-hero p {
   max-width: 480px;
   font-size: 17px;
   line-height: 1.6;
-  color: white;
+  color: #705d70;
 }
 
 /* Lábios */
 body[data-category="labios"] .category-hero {
-  background: linear-gradient(120deg, #ff3f91, #d52d83);
+  background: #ffe2eb;
+}
+
+body[data-category="labios"] .category-hero::before {
+  color: rgba(255, 63, 145, .15);
 }
 
 /* Rosto */
 body[data-category="rosto"] .category-hero {
-  background: linear-gradient(120deg, #ffdb38, #ffad42);
+  background: #fff0c9;
+}
+
+body[data-category="rosto"] .category-hero::before {
+  color: rgba(255, 173, 66, .22);
 }
 
 /* Olhos */
 body[data-category="olhos"] .category-hero {
-  background: linear-gradient(120deg, #7738df, #4520a0);
+  background: #eee3ff;
+}
+
+body[data-category="olhos"] .category-hero::before {
+  color: rgba(119, 56, 223, .16);
 }
 
 /* Acessórios */
 body[data-category="acessorios"] .category-hero {
-  background: linear-gradient(120deg, #24b8e8, #188caa);
+  background: #dff5fa;
+}
+
+body[data-category="acessorios"] .category-hero::before {
+  color: rgba(36, 184, 232, .2);
 }
 
 /* Ajustes para telas menores */
@@ -3257,4 +3275,3 @@ body[data-category="acessorios"] .category-hero {
     font-size: 32px;
   }
 }
-
