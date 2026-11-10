@@ -410,6 +410,49 @@ body[data-category=acessorios] .category-hero::after{background-image:var(--f-pi
 .subtotal strong{font:700 24px var(--serif)}
 .toast{background:var(--ink);border:2px solid var(--yellow);border-radius:10px;font-weight:600}
 
+/* LOGO PENNY BLOOM */
+.site-header .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.site-header .logo .logo-mark {
+  display: block;
+  margin: 0 0 3px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 23px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: var(--pink);
+}
+
+.site-header .logo .logo-word {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "Fredoka", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: .85;
+  letter-spacing: -0.5px;
+  color: var(--ink);
+}
+
+.site-header .logo .logo-line {
+  display: block;
+  margin: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: none;
+  color: inherit;
+}
+
 /* ---------- Espaço de respiro (desktop) ---------- */
 @media(min-width:761px){
  .section-heading{margin-bottom:64px}
