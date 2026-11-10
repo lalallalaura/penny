@@ -1,6 +1,6 @@
 /* PENNY BLOOM — CSS organizado a partir do arquivo do projeto e das partes enviadas. */
 
-@import url("https://fonts.googleapis.com/css2?family=Dangrek:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700;800&family=Caveat+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700;800&family=Caveat+Brush&display=swap");
 
 
 :root {
@@ -2264,7 +2264,7 @@ body {
   --sage-dark: var(--ink);
   --sage-soft: #f3eaff;
   --rose: var(--pink);
-  --serif: "Dangrek","DM Sans",sans-serif;
+  --serif: "Coiny","DM Sans",sans-serif;
   --sans: "DM Sans",Arial,sans-serif;
   --shadow: 0 14px 0 rgba(41,21,47,.07),0 20px 45px rgba(65,30,80,.12);
 }
@@ -2334,7 +2334,7 @@ body {
 .logo-word {
   display: flex;
   flex-direction: column;
-  font: 700 29px/.72 "Dangrek",sans-serif;
+  font: 700 29px/.72 "Coiny",sans-serif;
   text-transform: lowercase;
   color: var(--purple);
   letter-spacing: -1.5px;
@@ -2465,7 +2465,7 @@ body {
 }
 
 .hero h1 {
-  font: 700 clamp(62px,7.5vw,108px)/.88 "Dangrek",sans-serif;
+  font: 700 clamp(62px,7.5vw,108px)/.88 "Coiny",sans-serif;
   letter-spacing: -3px;
   text-shadow: 4px 4px 0 rgba(41,21,47,.13);
 }
@@ -2508,7 +2508,7 @@ body {
 .hero-sticker {
   border: 3px solid var(--ink);
   box-shadow: 5px 6px 0 var(--ink);
-  font: 700 20px/1 "Dangrek",sans-serif;
+  font: 700 20px/1 "Coiny",sans-serif;
   right: 9%;
   top: 13%;
   z-index: 3;
@@ -2546,7 +2546,7 @@ body {
 }
 
 .hero-note {
-  font-family: "Dangrek",sans-serif;
+  font-family: "Coiny",sans-serif;
   font-size: 13px;
   letter-spacing: 3px;
 }
@@ -2576,7 +2576,7 @@ body {
 }
 
 .intro-strip p {
-  font: 700 17px "Dangrek",sans-serif;
+  font: 700 17px "Coiny",sans-serif;
   text-transform: uppercase;
 }
 
@@ -2586,7 +2586,7 @@ body {
 }
 
 .section-heading h2,.story-copy h2,.newsletter-section h2 {
-  font-family: "Dangrek",sans-serif;
+  font-family: "Coiny",sans-serif;
   font-weight: 600;
   letter-spacing: -1px;
 }
@@ -2661,7 +2661,7 @@ body {
 }
 
 .category-card h3 {
-  font: 700 35px "Dangrek",sans-serif;
+  font: 700 35px "Coiny",sans-serif;
   text-shadow: 3px 3px 0 var(--ink);
 }
 
@@ -2682,7 +2682,7 @@ body {
 }
 
 .filter-heading h3,.product-info h3 {
-  font-family: "Dangrek",sans-serif;
+  font-family: "Coiny",sans-serif;
 }
 
 .filter-group input {
@@ -2769,7 +2769,7 @@ body {
 }
 
 .values-grid article h3 {
-  font-family: "Dangrek",sans-serif;
+  font-family: "Coiny",sans-serif;
 }
 
 .testimonials-section {
@@ -2821,7 +2821,7 @@ body {
 }
 
 .category-hero h1 {
-  font-family: "Dangrek",sans-serif;
+  font-family: "Coiny",sans-serif;
   font-size: clamp(45px,6vw,76px);
 }
 
@@ -2965,7 +2965,7 @@ body {
   align-items: center;
   gap: 0;
   color: var(--purple) !important;
-  font: 700 21px/.86 'Dangrek', sans-serif !important;
+  font: 700 21px/.86 'Coiny', sans-serif !important;
   letter-spacing: -.8px !important;
   text-transform: none !important;
   text-align: center;
@@ -3204,7 +3204,7 @@ body { overflow-x: clip; }
 
 .category-hero h1 {
   max-width: 750px;
-  font-family: "Dangrek", sans-serif;
+  font-family: "Coiny", sans-serif;
   font-size: clamp(42px, 6vw, 76px);
   line-height: 1.05;
   font-weight: 700;
